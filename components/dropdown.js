@@ -14,7 +14,7 @@ class DropDownMenu {
 
         var listOfValues = this._listOfValues;
         var html = `<div style='background-color:#FFFFFF;
-                  overflow-y: scroll;height:20vh;
+                  overflow-y: scroll;max-height:20vh;
                   width: containerWidthpx; border:solid 1px;
                   ><span style=''></span>`;
 
